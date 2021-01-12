@@ -1,7 +1,7 @@
-@font-face {
-        src: url("../assets/fuente/Gallantry/Gallantry.otf");
-        font-family: 'mifuente';
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap');
+
 
 * { 
     margin: 0;
@@ -15,37 +15,67 @@ html {font-size: 16px;
 
 body {
     background-image: url(../assets/images/Cinema.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-
-        font-family: mifuente, sans-serif;
-        position: relative;
-    }
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
 
 
 header a {  
         text-decoration: none;
-}
+        color: aliceblue;
+    }
+
     
 nav ul li {
         list-style: none;
 }
 
 header ul {
+    margin: 1%;
     display:flex;
     justify-content: space-around;
     padding: 1px;
     font-size: 1.5em;
 }
 
+
 h1 {
-    font-size: 3.5em;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4.5em;
     text-align: center;
     color: aliceblue;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 p {
-    font-size: 2em;
+    font-size: 1.2em;
     color: aliceblue;
+    text-align: center;
 }
 
+.animate__animated.animate__backInDown {
+    --animate-duration: 2s;
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+        height: 700px;
+    }
+
+    header ul {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+        padding: 10px;
+    }
+    
+}
