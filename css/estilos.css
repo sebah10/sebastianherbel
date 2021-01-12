@@ -1,15 +1,15 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap');
 
 
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {font-size: 16px;
+html {
+    font-size: 16px;
     scroll-behavior: smooth;
 }
 
@@ -22,19 +22,19 @@ body {
 }
 
 
-header a {  
-        text-decoration: none;
-        color: aliceblue;
-    }
+header a {
+    text-decoration: none;
+    color: aliceblue;
+}
 
-    
+
 nav ul li {
-        list-style: none;
+    list-style: none;
 }
 
 header ul {
     margin: 1%;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     padding: 1px;
     font-size: 1.5em;
@@ -59,9 +59,17 @@ p {
     --animate-duration: 2s;
 }
 
+.animate__animated.animate__backInLeft {
+    --animate-duration: 3s;
+}
+
+.animate__animated.animate__backInRight {
+    --animate-duration: 4s;
+}
+
 
 @media screen and (max-width: 768px) {
-    body{
+    body {
         height: 700px;
     }
 
@@ -77,5 +85,5 @@ p {
         font-size: 1em;
         padding: 10px;
     }
-    
+
 }
