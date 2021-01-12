@@ -1,0 +1,29 @@
+@font-face {
+        src: url("../assets/fuente/Gallantry/Gallantry.otf");
+        font-family: 'mifuente';
+}
+    
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+        font-family: mifuente, sans-serif;
+        position: relative;
+    }
+
+    header a {
+        text-decoration: none;
+    }
+    
+    nav ul li {
+        list-style: none;
+    }
