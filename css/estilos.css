@@ -2,8 +2,6 @@
         src: url("../assets/fuente/Gallantry/Gallantry.otf");
         font-family: 'mifuente';
 }
-    
-
 
 * { 
     margin: 0;
@@ -16,6 +14,9 @@ html {font-size: 16px;
 }
 
 body {
+    background-image: url(../assets/images/Cinema.jpg);
+    background-size: cover;
+
         font-family: mifuente, sans-serif;
         position: relative;
     }
@@ -34,14 +35,17 @@ header ul {
     justify-content: space-around;
     padding: 1px;
     font-size: 1.5em;
-
 }
 
 h1 {
     font-size: 3.5em;
     text-align: center;
+    color: aliceblue;
+    margin-top: 5%;
 }
 
 p {
     font-size: 2em;
+    color: aliceblue;
 }
+
